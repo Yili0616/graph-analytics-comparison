@@ -1,0 +1,8 @@
+import networkx as nx
+from networkx import *
+
+fh = open("wiki-talk-temporal.txt","r")
+G=nx.read_weighted_edgelist(fh, nodetype=int)
+fh.close()
+print "edges:"
+print G.
