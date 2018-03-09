@@ -1,4 +1,4 @@
-# graphviztest
+# Comparison among Graph Analytics Tools
 
 This is code repo for testing 3 different graph vizualization tools: SNAP(C++), NetworkX(python) and iGraph(C++)
 
