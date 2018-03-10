@@ -6,7 +6,7 @@ newg<- graph.data.frame(table, directed=TRUE)
 end_time <- Sys.time()
 end_time - start_time
 
-
+print("Wikitalk.txt")
 print("number of vx:")
 vcount(newg)
 print("number of edge:")
