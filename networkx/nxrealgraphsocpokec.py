@@ -12,7 +12,7 @@ def networkxtest():
     print Graph1.number_of_edges()
     print "nodes:"
     print Graph1.number_of_nodes()
-    print "Time for reading the graph cit-Patents temporal:"
+    print "Time for reading the graph soc-pokec-relationships temporal:"
     print end1 - start1
 
 
