@@ -1,6 +1,6 @@
 from networkx import *
 import time
-from random import choice
+from random import sample
 
 def networkxtest():
     start1 = time.time()
