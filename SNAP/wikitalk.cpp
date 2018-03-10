@@ -6,12 +6,14 @@
 
 int main(int argc, char* argv[]) {
 	const clock_t begin_time = clock();
-	PUNGraph Graph = TSnap::LoadEdgeList<PUNGraph>("wiki-talk-temporal.txt", 0, 1);
-	printf("time for Read a graph:");
+	PUNGraph Graph = TSnap::LoadEdgeList<PUNGraph>("WikiTalk.txt", 0, 1);
+	printf("time for reading wiki-talk.txt:");
 	printf("%g\n", float(clock() - begin_time) / CLOCKS_PER_SEC);
 	TIntPrV count;
 	printf("number of nodes: %i\n", Graph->GetNodes());
 	printf("number of edges: %d\n", Graph->GetEdges());
+	
+	snap.DelSelfEdges(Graph)
 
 	const clock_t begin_time2 = clock();
 	TSnap::GetWccSzCnt(Graph, count);
