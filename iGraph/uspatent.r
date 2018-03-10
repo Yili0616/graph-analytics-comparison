@@ -12,6 +12,8 @@ vcount(newg)
 print("number of edge:")
 ecount(newg)
 
+# Remove self-loops for consistency
+newg <- invisible(simplify(newg, remove.loops = TRUE))
 
 # k-core
 start_time <- Sys.time()
