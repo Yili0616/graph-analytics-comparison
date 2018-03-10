@@ -91,7 +91,7 @@ def networkxtest():
     # print "outdegree centrality"
     # print end11 - start11
 
-    # average clustering -- convert to undirected graph first
+    # clustering -- convert to undirected graph first
     start8 = time.time()
     G = Graph1.to_undirected()
     clustering(G) 
