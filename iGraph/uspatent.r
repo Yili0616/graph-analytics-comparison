@@ -5,6 +5,7 @@ newg<- graph.data.frame(table, directed=TRUE)
 
 end_time <- Sys.time()
 end_time - start_time
+print("cit-Patents.txt")
 
 
 print("number of vx:")
