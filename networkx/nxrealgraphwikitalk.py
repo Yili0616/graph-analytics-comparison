@@ -22,7 +22,7 @@ def networkxtest():
     # print "Time for generating undirect ER:"
     # print end2 - start2
 
-    # Graph1.remove_edges_from(Graph1.selfloop_edges())
+    Graph1.remove_edges_from(Graph1.selfloop_edges())
     # Graph2.remove_edges_from(Graph2.selfloop_edges())
 
 
