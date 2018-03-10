@@ -1,7 +1,6 @@
 from networkx import *
-import sys
 import time
-import pickle
+
 
 def networkxtest():
     start1 = time.time()
