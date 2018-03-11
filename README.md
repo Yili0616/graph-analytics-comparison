@@ -64,8 +64,13 @@ Step 2: File > Open File > Migrate to iGraph/er.r
 
 Step 3: Click run
 
-**2. SNAP ** 
+**2. SNAP** 
 
 **3. NetworkX** 
 
-Step 1: Migrate to Net
+Step 1: Migrate to networkx/er.py
+
+Step 2: Run 
+```
+python er.py
+```
