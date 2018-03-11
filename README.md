@@ -27,14 +27,14 @@ Following functions are tested:
 ## Installation and Setup
 Clone/ Donwload all files from this repo.
 
-**iGraph**
+**1. iGraph**
 
 Step 1: Download [R](https://www.r-project.org/)
 
 Step 2: Download [RStudio](https://www.rstudio.com/)
 
 
-**SNAP**
+**2. SNAP**
 
 Step 1: Download [Snap](https://snap.stanford.edu/snap/download.html) examples
 
@@ -43,7 +43,7 @@ Step 2: Download Ubuntu Desktop/Cygwin on windows or alternatives on Mac OS X or
 Step 3: Copy code in Snap folder to Snap-4.0/examples/graphgen
 
 
-**NetworkX** 
+**3. NetworkX** 
 
 Step 1: Download [Python 2.7](https://www.python.org/downloads/) 
 
