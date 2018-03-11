@@ -28,5 +28,26 @@ Following functions are tested:
 Clone/ Donwload all files from this repo.
 
 **iGraph**
+
 Step 1: Download [R](https://www.r-project.org/)
+
+Step 2: Download [RStudio](https://www.rstudio.com/)
+
+
+**SNAP**
+
+Step 1: Download [Snap](https://snap.stanford.edu/snap/download.html) examples
+
+Step 2: Download Ubuntu Desktop/Cygwin on windows or alternatives on Mac OS X or use command prompt on Linux
+
+Step 3: Copy code in Snap folder to Snap-4.0/examples/graphgen
+
+
+**NetworkX** 
+
+Step 1: Download [Python 2.7](https://www.python.org/downloads/) 
+
 Step 2: 
+```
+pip install networkx
+```
