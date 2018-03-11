@@ -53,3 +53,19 @@ pip install networkx
 ```
 
 ## Examples
+
+To generate Erdos-Renyi graph:
+
+**1. iGraph** 
+
+Step 1: Open Rstudio
+
+Step 2: File > Open File > Migrate to iGraph/er.r
+
+Step 3: Click run
+
+**2. SNAP ** 
+
+**3. NetworkX** 
+
+Step 1: Migrate to Net
