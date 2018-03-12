@@ -58,7 +58,7 @@ To generate Erdos-Renyi graph:
 
 **1. iGraph** 
 
-Step 1: Open Rstudio
+Step 1: Open RStudio
 
 Step 2: File > Open File > Migrate to iGraph/er.r
 
