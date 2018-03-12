@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
   const int M = Env.GetIfArgPrefixInt("-m:", 5000, "Number of edges");
   const double P = Env.GetIfArgPrefixFlt("-p:", 0.1, "Probability/Degree-exponent");
   const int K = Env.GetIfArgPrefixInt("-k:", 3, "Degree");
-
+  const clock_t begin_time = clock();
   if (Env.IsEndOfRun()) { return 0; }
   TExeTm ExeTm;
   TInt::Rnd.PutSeed(0); // initialize random seed
@@ -66,6 +66,8 @@ int main(int argc, char* argv[]) {
   }
   printf("done.\n");
   TSnap::SaveEdgeList(G, OutFNm, DescStr);
+  printf("Time for generating a graph\n");
+  printf("%g\n", float(clock()-begin_time)/CLOCKS_PER_SEC);
 
   Catch
   printf("\nrun time: %s (%s)\n", ExeTm.GetTmStr(), TSecTm::GetCurTm().GetTmStr().CStr());
