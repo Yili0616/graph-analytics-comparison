@@ -66,6 +66,18 @@ Step 3: Click run
 
 **2. SNAP** 
 
+Step 1: Copy Snap folder to Snap-4.0/examples folder
+
+Step 2: Change the Main value to graphgen
+
+Step 3: type make on command prompt
+
+Step 4: 
+
+```
+./graphgen -g:e -n:1000000 -m:10000000 -o:er.txt
+```
+
 **3. NetworkX** 
 
 Step 1: Migrate to networkx/er.py
@@ -74,3 +86,6 @@ Step 2: Run
 ```
 python er.py
 ```
+
+
+*graphgen.cpp from Snap folder are copied from original Snap code*
