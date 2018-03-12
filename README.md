@@ -70,7 +70,7 @@ Step 1: Copy Snap folder to Snap-4.0/examples folder
 
 Step 2: Change the Main value to graphgen
 
-Step 3: type make on command prompt
+Step 3: Type make on command prompt
 
 Step 4: 
 
