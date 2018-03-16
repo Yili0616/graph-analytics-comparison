@@ -1,4 +1,4 @@
-# Graph Analytic Libraries Comparison 
+# Graph Analytics Libraries Comparison 
 
 ## Overview
 This is code repo for testing 3 different graph analytic libraries: iGraph(R),NetworkX(python)
