@@ -13,7 +13,7 @@ G = nx.fast_gnp_random_graph(1000000,0.00002)
 time2 = time.time()
 print "1st: ER 1M, 10M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -22,7 +22,7 @@ G = nx.fast_gnp_random_graph(1000000,0.00002)
 time2 = time.time()
 print "2ND: ER 1M, 10M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -31,7 +31,7 @@ G = nx.fast_gnp_random_graph(1000000,0.00002)
 time2 = time.time()
 print "3RD: ER 1M, 10M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -40,7 +40,7 @@ G = nx.fast_gnp_random_graph(1000000,0.00002)
 time2 = time.time()
 print "4th: ER 1M, 10M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -49,7 +49,7 @@ G = nx.fast_gnp_random_graph(1000000,0.00002)
 time2 = time.time()
 print "5th: ER 1M, 10M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 # 100M edges
@@ -59,7 +59,7 @@ G = nx.fast_gnp_random_graph(1000000,0.0002)
 time2 = time.time()
 print "1st: ER 1M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -68,7 +68,7 @@ G = nx.fast_gnp_random_graph(1000000,0.0002)
 time2 = time.time()
 print "2nd: ER 1M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -77,7 +77,7 @@ G = nx.fast_gnp_random_graph(1000000,0.0002)
 time2 = time.time()
 print "3rd: ER 1M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -86,7 +86,7 @@ G = nx.fast_gnp_random_graph(1000000,0.0002)
 time2 = time.time()
 print "4th: ER 1M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -95,7 +95,7 @@ G = nx.fast_gnp_random_graph(1000000,0.0002)
 time2 = time.time()
 print "5th: ER 1M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 ## 10M, 100M
@@ -105,7 +105,7 @@ G = nx.fast_gnp_random_graph(1000000,0.000002)
 time2 = time.time()
 print "1th: ER 10M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -114,7 +114,7 @@ G = nx.fast_gnp_random_graph(1000000,0.000002)
 time2 = time.time()
 print "2nd: ER 10M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -123,7 +123,7 @@ G = nx.fast_gnp_random_graph(1000000,0.000002)
 time2 = time.time()
 print "3rd: ER 10M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -132,7 +132,7 @@ G = nx.fast_gnp_random_graph(1000000,0.000002)
 time2 = time.time()
 print "4th: ER 10M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 time1 = time.time()
@@ -140,7 +140,7 @@ G = nx.fast_gnp_random_graph(1000000,0.000002)
 time2 = time.time()
 print "5th: ER 10M, 100M"
 print "number of edges"
-G.number_of_edges()
+print G.number_of_edges()
 print time2-time1
 
 
