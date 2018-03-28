@@ -1,8 +1,8 @@
-# Graph Analytic Libraries Comparison 
+# Graph Analytics Libraries Comparison 
 
 ## Overview
-This is code repo for testing 3 different graph analytic libraries: iGraph(R),NetworkX(python)
-and SNAP(C++)
+This is code repo for testing 3 different graph analytic libraries: [iGraph](http://igraph.org/redirect.html) (R), [NetworkX](https://networkx.github.io/) (Python)
+and [SNAP](http://snap.stanford.edu/) (C++)
 
 Following functions are tested: 
 
