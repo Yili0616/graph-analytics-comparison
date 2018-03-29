@@ -36,7 +36,7 @@ Number of Nodes| Number of Edges Created by Each New Node
 ----|----
 1M|10
 
-Compare the runtime of following algorithms using above graphs: 
+Compare the runtime of following algorithms using above real datasets: 
 1) Page Rank
 2) Weakly-Connected Component(WCC)
 3) 3-cores
