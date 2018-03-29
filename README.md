@@ -15,11 +15,11 @@ Both real and synthetic datasets are used.
 **Synthetic Datasets** 
 Erdős–Rényi, Watts-Strogatz Small-World and Preferential Attachment are used to generate synthetic datasets.
 Erdős–Rényi: 
-| Nodes         | Edges         |
-| -------------| ------------- |
-| 1M            | 10M           |
-| 1M            | 100M          | 
-| 10M           | 100M          |   
+Nodes| Edges 
+| ----| -----
+| 1M  | 10M          
+| 1M  | 100M           
+| 10M | 100M           
 
 **Random Graph Generators**: 
 1) Erdos-Renyi
