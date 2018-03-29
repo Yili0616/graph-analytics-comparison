@@ -6,14 +6,14 @@
 
 int main(int argc, char* argv[]) {
 	const clock_t begin_time = clock();
-	PUNGraph Graph = TSnap::LoadEdgeList<PUNGraph>("WikiTalk.txt", 0, 1);
+	PNGraph Graph = TSnap::LoadEdgeList<PNGraph>("WikiTalk.txt", 0, 1);
 	printf("time for reading wiki-talk.txt:");
 	printf("%g\n", float(clock() - begin_time) / CLOCKS_PER_SEC);
 	TIntPrV count;
 	printf("number of nodes: %i\n", Graph->GetNodes());
 	printf("number of edges: %d\n", Graph->GetEdges());
 	
-	snap.DelSelfEdges(Graph)
+	TSnap::DelSelfEdges(Graph);
 
 	const clock_t begin_time2 = clock();
 	TSnap::GetWccSzCnt(Graph, count);
@@ -42,15 +42,13 @@ int main(int argc, char* argv[]) {
 
 	const clock_t begin_time6 = clock();
 	printf("Does the edge exist? ");
-	printf(Graph->IsEdge(Graph->GetRndNId(), Graph->GetRndNId()) ? "true\n" : "false\n");
-	printf("Time for test existence of edge");
+	for (int i = 0; i <100000; i++) {
+		// printf("i:%i\n", i);
+		// printf("%i\n",Graph->GetRndNId());
+	    Graph->IsEdge(Graph->GetRndNId(), Graph->GetRndNId());
+    }
+	printf("Time for test existence of edge for 100000 times\n");
 	printf("%g\n", float(clock() - begin_time6) / CLOCKS_PER_SEC);
-
-
-
-
-
-
 
 
 }
