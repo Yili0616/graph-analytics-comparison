@@ -4,18 +4,27 @@
 This is code repo for testing 3 different graph analytic libraries: [iGraph](http://igraph.org/redirect.html) (R), [NetworkX](https://networkx.github.io/) (Python)
 and [SNAP](http://snap.stanford.edu/) (C++)
 
-Following functions are tested: 
+Both real and synthetic datasets are used. 
+
+**Real datasets**( All of them are from [SNAP](http://snap.stanford.edu/data/index.html) website ):
+1) [Wikitalk](https://snap.stanford.edu/data/wiki-Talk.html)
+2) [US Patent](https://snap.stanford.edu/data/cit-Patents.html)
+3) [Pokec Social Network](https://snap.stanford.edu/data/soc-pokec.html)
+4) [LiveJournal Social Network](https://snap.stanford.edu/data/soc-LiveJournal1.html)
+
+**Synthetic Datasets** 
+Erdős–Rényi, Watts-Strogatz Small-World and Preferential Attachment are used to generate synthetic datasets.
+Erdős–Rényi: 
+| Nodes         | Edges         |
+| -------------:|:------------- |
+| 1M            | 10M           |
+| 1M            | 100M          | 
+| 10M           | 100M          |   
 
 **Random Graph Generators**: 
 1) Erdos-Renyi
 2) Watts–Strogatz small-world graph 
 3) Preferential Attachment
-
-**Save/Load Time** for 4 different datasets. All of them are from [SNAP](http://snap.stanford.edu/data/index.html) website 
-1) [Wikitalk](https://snap.stanford.edu/data/wiki-Talk.html)
-2) [US Patent](https://snap.stanford.edu/data/cit-Patents.html)
-3) [Pokec Social Network](https://snap.stanford.edu/data/soc-pokec.html)
-4) [LiveJournal Social Network](https://snap.stanford.edu/data/soc-LiveJournal1.html)
 
 **Graph Analytics**: 
 1) Page Rank
