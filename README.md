@@ -89,13 +89,14 @@ Step 1: Copy Snap folder to Snap-4.0/examples folder
 
 Step 2: Change the Main value to graphgen
 
-Step 3: Type make on command prompt
+Step 3: Type make on command prompt under Snap-4.0 directory
 
-Step 4: 
+Step 4: Run
 
 ```
 ./graphgen -g:e -n:1000000 -m:10000000 -o:er.txt
 ```
+under Snap-4.0/examples/graphgen directory 
 
 **3. NetworkX** 
 
