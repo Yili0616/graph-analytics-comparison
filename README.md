@@ -14,19 +14,29 @@ Both real and synthetic datasets are used.
 
 **Synthetic Datasets** 
 Erdős–Rényi, Watts-Strogatz Small-World and Preferential Attachment are used to generate synthetic datasets.
-Erdős–Rényi: 
-Nodes| Edges 
+
+**Erdős–Rényi**:
+
+Number of Nodes| Number of Edges 
 | ----| -----
 | 1M  | 10M          
 | 1M  | 100M           
-| 10M | 100M           
+| 10M | 100M   
 
-**Random Graph Generators**: 
-1) Erdos-Renyi
-2) Watts–Strogatz small-world graph 
-3) Preferential Attachment
+**Watts-Strogatz Small-World**:
 
-**Graph Analytics**: 
+Number of Nodes|Number of Neighbors|Rewiring Probability 
+|----|----| ----
+|100k| 200 |0.5
+|1M| 200 | 0.5
+
+**Preferential Attachment**: 
+
+Number of Nodes| Number of Edges Created by Each New Node
+----|----
+1M|10
+
+Compare the runtime of following algorithms using above graphs: 
 1) Page Rank
 2) Weakly-Connected Component(WCC)
 3) 3-cores
