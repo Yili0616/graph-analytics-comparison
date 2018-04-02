@@ -7,10 +7,10 @@ and [SNAP](http://snap.stanford.edu/) (C++)
 Both real and synthetic datasets are used. 
 
 **Real datasets**( All of them are from [SNAP](http://snap.stanford.edu/data/index.html) website ):
-1) [Wikitalk](https://snap.stanford.edu/data/wiki-Talk.html)
-2) [US Patent](https://snap.stanford.edu/data/cit-Patents.html)
-3) [Pokec Social Network](https://snap.stanford.edu/data/soc-pokec.html)
-4) [LiveJournal Social Network](https://snap.stanford.edu/data/soc-LiveJournal1.html)
+1) [wiki-Talk](https://snap.stanford.edu/data/wiki-Talk.html)
+2) [cit-Patents](https://snap.stanford.edu/data/cit-Patents.html)
+3) [soc-Pokec](https://snap.stanford.edu/data/soc-pokec.html)
+4) [soc-LiveJournal1](https://snap.stanford.edu/data/soc-LiveJournal1.html)
 
 **Synthetic Datasets** 
 Erdős–Rényi, Watts-Strogatz Small-World and Preferential Attachment are used to generate synthetic datasets.
