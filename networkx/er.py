@@ -36,7 +36,7 @@ print time2-time1
 
 time1 = time.time()
 G = nx.fast_gnp_random_graph(1000000,0.00002)
-# count edges 
+# count edges  
 time2 = time.time()
 print "4th: ER 1M, 10M"
 print "number of edges"
