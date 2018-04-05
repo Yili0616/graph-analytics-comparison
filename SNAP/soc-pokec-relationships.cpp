@@ -42,7 +42,10 @@ int main(int argc, char* argv[]) {
 
   const clock_t begin_time6 = clock();
   printf("Does the edge exist? ");
-  printf(Graph->IsEdge(Graph->GetRndNId(), Graph->GetRndNId()) ? "true\n" : "false\n");
+    
+    // printf("i:%i\n", i);
+    // printf("%i\n",Graph->GetRndNId());
+  Graph->IsEdge(Graph->GetRndNId(), Graph->GetRndNId());
   printf("Time for test existence of edge");
   printf("%g\n", float(clock() - begin_time6) / CLOCKS_PER_SEC);
 

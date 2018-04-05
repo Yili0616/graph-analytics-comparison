@@ -45,9 +45,11 @@ end_time - start_time
 
 #test edge existence
 start_time <- Sys.time()
-invisible(core <- coreness(newg,mode = "all"))
-vhc<-which(core==3)
-threecore <- induced.subgraph(graph=newg,vids=vhc)
+a<-sample(1:vcount(newg),2, replace = TRUE)
+i<-1
+
+are.connected(newg, a[1], a[2])
+
 end_time <- Sys.time()
 end_time - start_time
 
