@@ -6,7 +6,7 @@
 
 int main(int argc, char* argv[]) {
   const clock_t begin_time = clock();
-  PUNGraph Graph = TSnap::LoadEdgeList<PUNGraph>("soc-pokec-relationships.txt", 0, 1);
+  PNGraph Graph = TSnap::LoadEdgeList<PNGraph>("soc-pokec-relationships.txt", 0, 1);
   printf("time for reading soc-pokec-relationships.txt:");
   printf("%g\n", float(clock() - begin_time) / CLOCKS_PER_SEC);
   TIntPrV count;
