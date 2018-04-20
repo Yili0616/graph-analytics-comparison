@@ -30,7 +30,7 @@ Number of Nodes|Number of Neighbors|Rewiring Probability
 |100k| 200 |0.5
 |1M| 200 | 0.5
 
-**Preferential Attachment**: 
+**Albert-Barabasi Preferential Attachment**: 
 
 Number of Nodes| Number of Edges Created by Each New Node
 ----|----
